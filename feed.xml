@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gabriel Amram's Blog</title>
+    <title>Anything that comes to mind</title>
     <description>Thoughts about stuff I stumble upon. Technology, science, music and any combination of the three.
 </description>
     <link>http://gabriel-amram.github.io/</link>
     <atom:link href="http://gabriel-amram.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Sep 2014 15:50:15 +0300</pubDate>
-    <lastBuildDate>Mon, 15 Sep 2014 15:50:15 +0300</lastBuildDate>
+    <pubDate>Mon, 15 Sep 2014 17:58:40 +0300</pubDate>
+    <lastBuildDate>Mon, 15 Sep 2014 17:58:40 +0300</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>

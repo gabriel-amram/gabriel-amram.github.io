@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #ea3b10;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #a2290b; }
   a:hover {
     color: #111111;
     text-decoration: underline; }
@@ -146,7 +146,7 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
+  border-top: 5px solid #ea3b10;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
@@ -308,6 +308,42 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+/** 
+ * Manual stuff
+ */
+.floating-me {
+  background-color: #66bcaf;
+  margin: 0 auto;
+  width: 300px;
+  z-index: 100; }
+  .floating-me .me-container {
+    margin: 0 auto;
+    padding: 5px 0 0;
+    width: 250px; }
+    .floating-me .me-container .img-container {
+      text-align: center;
+      width: 110px;
+      margin: 0 auto 4px; }
+      .floating-me .me-container .img-container img {
+        border-radius: 110px; }
+    .floating-me .me-container .short-about > div {
+      text-align: center; }
+
+.main-contained-wrapper {
+  position: relative;
+  min-height: 400px; }
+
+.about-me {
+  float: right;
+  font-size: 18px;
+  margin: -34px 0 6px 30px;
+  text-align: center; }
+  .about-me > div {
+    font-size: 18px;
+    text-align: center; }
+  .about-me img {
+    border-radius: 150px; }
 
 /**
  * Syntax highlighting styles
