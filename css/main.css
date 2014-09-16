@@ -315,20 +315,25 @@ pre {
 .floating-me {
   background-color: #66bcaf;
   margin: 0 auto;
-  width: 300px;
-  z-index: 100; }
+  width: 550px; }
   .floating-me .me-container {
     margin: 0 auto;
     padding: 5px 0 0;
-    width: 250px; }
+    width: 500px; }
     .floating-me .me-container .img-container {
       text-align: center;
-      width: 110px;
-      margin: 0 auto 4px; }
+      width: 25%;
+      margin: 0 auto 4px;
+      display: inline-block; }
       .floating-me .me-container .img-container img {
         border-radius: 110px; }
-    .floating-me .me-container .short-about > div {
-      text-align: center; }
+    .floating-me .me-container .short-about {
+      display: inline-block;
+      width: 70%;
+      margin-left: 3%;
+      vertical-align: middle; }
+      .floating-me .me-container .short-about > div {
+        text-align: right; }
 
 .main-contained-wrapper {
   position: relative;
