@@ -1,0 +1,21 @@
+# Gabriel Amram
+
+Technology and engineering leader with experience as a founder, CTO, VP R&D and Engineering Group Lead.
+
+## Primary professional resources
+
+- Human-readable CV: https://amram.co/cv/
+- Detailed structured CV: https://amram.co/cv/ai/
+- Professional writing: https://amram.co/stories/
+- LinkedIn: https://www.linkedin.com/in/gabrielamram
+
+## Primary areas
+
+- Engineering leadership
+- Platform engineering
+- Distributed systems
+- AI-native software development
+- Product strategy
+- Organizational design
+- Developer platforms
+- Leadership development
