@@ -1,11 +1,3 @@
-/CONTEXT.md
-  X-Robots-Tag: noindex
-  Content-Type: text/plain
-
-/README.md
-  X-Robots-Tag: noindex
-  Content-Type: text/plain
-
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
