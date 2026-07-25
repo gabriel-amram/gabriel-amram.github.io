@@ -86,6 +86,7 @@ h4 { font-size: 1.05rem; margin-bottom: 6px; }
 ul { margin-top: 10px; padding-left: 22px; }
 li { margin: 7px 0; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
+.two-col h2 + h2 { margin-top: 28px; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 8px; }
 .tag {
   border: 1px solid var(--line);
@@ -110,7 +111,8 @@ article.ai p, article.ai li { max-width: 880px; }
   .nav-links a { font-size: .88rem; }
   main { padding-top: 42px; }
   .two-col h2 { margin-top: 28px; }
-  .two-col > div:first-child h2:first-child { margin-top: 0; }
+  .two-col > div:first-child h2:first-child,
+  .two-col > div:last-child h2:first-child { margin-top: 0; }
 }
 @media print {
   .site-header, footer, .actions, .ai-switch { display: none !important; }
