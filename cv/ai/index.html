@@ -196,6 +196,28 @@
   <li>Led the organization through funding rounds, product launches and market transitions.</li>
   <li>Built large-scale data pipelines, audience and topic analysis, NLP systems, search and analytics, and an LLM-based marketing strategy agent.</li>
 </ul>
+
+<h3>Platform architecture</h3>
+<p>Brew's platform was built around three core components:</p>
+<ul>
+  <li><strong>Crawlers and sourcers:</strong> discovered and parsed company marketing activities at scale - events, conferences, webinars, blogs, press releases, podcasts and social content. Extracted structured intelligence: companies, topics, traction and engagement, target audiences (distinct from audiences mentioned in the text), verticals and industries.</li>
+  <li><strong>Contextual graph:</strong> stored all extracted intelligence in a graph model enabling non-obvious competitive insights. For example: two companies not typically seen as competitors could be identified as competing for the same target audience, revealing competitive dynamics invisible to conventional analysis.</li>
+  <li><strong>Marketing strategy layer:</strong> the customer-facing component, allowing users to ask strategic questions - such as how to penetrate a new market, who is active there, what share of voice they hold, and what differentiation strategy would be most effective. Initially built as structured dashboards; redesigned around LLMs in late 2022 to support open-ended natural language strategy queries.</li>
+</ul>
+
+<h3>Marketing strategy agent (2022)</h3>
+<p>In late 2022, when ChatGPT was released, Gabriel spearheaded a strategic pivot to rebuild the strategy layer as an LLM-based expert agent. While early tooling such as LangChain was emerging, it was not yet production-ready and carried significant survival risk - the decision was made to build the orchestration architecture in-house rather than take a dependency on unproven frameworks.</p>
+<h4>Architecture</h4>
+<ul>
+  <li>An orchestrator agent that decomposed user queries and routed to specialized sub-agents.</li>
+  <li>Specialized sub-agents: an expert SQL executor, a graph and chart renderer, an analysis and reasoning agent and others.</li>
+  <li>Multi-tenant data isolation enforced at the agent level - no data leakage across customer boundaries.</li>
+  <li>Domain constraints to prevent out-of-scope responses.</li>
+  <li>Caching of answers and chains-of-thought for cost optimization.</li>
+</ul>
+<h4>Organizational dimension</h4>
+<p>Spearheading this shift required changing the mental model of company leadership and all of R&D. At the time, LLM-native product development was not yet an established pattern. Gabriel led the case for this architectural direction and drove the organizational change needed to execute it - making Brew an early mover in production agentic systems.</p>
+
 <p><strong>Technologies:</strong> Python, Django, FastAPI, AWS, PostgreSQL, Elasticsearch, Redis, Terraform and Vue.js.</p>
 
 <h2>EverThere, formerly Zoliro</h2>
