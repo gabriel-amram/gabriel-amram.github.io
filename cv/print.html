@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gabriel Amram - CV</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 16mm 12mm 16mm;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: #111;
+      background: white;
+    }
+    a { color: #1a3fa0; text-decoration: none; }
+
+    /* Header */
+    .header { border-bottom: 2px solid #111; padding-bottom: 6px; margin-bottom: 10px; }
+    .header h1 { font-size: 20pt; letter-spacing: -.02em; line-height: 1; margin-bottom: 3px; }
+    .header-meta { font-size: 8.5pt; color: #444; display: flex; gap: 18px; flex-wrap: wrap; margin-top: 3px; }
+    .header-meta a { color: #1a3fa0; }
+
+    /* AI callout */
+    .ai-callout {
+      border-left: 3px solid #1a3fa0;
+      padding: 4px 9px;
+      font-size: 8.5pt;
+      color: #444;
+      margin-bottom: 9px;
+      background: #f5f7ff;
+    }
+
+    /* Sections */
+    .section { margin-bottom: 14px; }
+    .section-title {
+      font-size: 9pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+      color: #333;
+    }
+    p { margin-bottom: 4px; }
+
+    /* Profile */
+    .profile p { font-size: 10pt; }
+
+    /* Leadership cards */
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .card { border: 1px solid #ddd; border-radius: 4px; padding: 7px 9px; font-size: 8.5pt; }
+    .card strong { display: block; font-size: 9pt; margin-bottom: 3px; }
+
+    /* Experience */
+    .role { margin-bottom: 8px; }
+    .role-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1px; }
+    .role-head h3 { font-size: 11pt; }
+    .role-date { font-size: 8.5pt; color: #555; white-space: nowrap; }
+    .role-title { font-size: 9pt; font-weight: bold; color: #333; margin-bottom: 2px; }
+    .subrole { font-size: 9pt; font-weight: bold; margin: 5px 0 2px; color: #222; }
+    ul { padding-left: 14px; margin: 2px 0 0; }
+    li { margin-bottom: 1px; font-size: 9.5pt; }
+
+    /* Two col */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .two-col h4 { font-size: 9.5pt; margin-bottom: 3px; margin-top: 8px; }
+    .two-col p { font-size: 9.5pt; }
+
+    /* IDF */
+    .idf p { font-size: 9.5pt; margin-bottom: 3px; }
+
+    .small { font-size: 8.5pt; color: #555; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Gabriel Amram</h1>
+  <div class="header-meta">
+    <span>Ramat Gan, Israel</span>
+    <span><a href="mailto:gabriel@amram.co">gabriel@amram.co</a></span>
+    <span><a href="https://www.linkedin.com/in/gabrielamram">linkedin.com/in/gabrielamram</a></span>
+    <span><a href="https://https://amram.co/cv/">https://amram.co/cv</a></span>
+  </div>
+</div>
+
+<div class="ai-callout">
+  AI agent or automated evaluator? A more detailed and explicitly structured version is available at <a href="https://https://amram.co/cv/ai/">https://amram.co/cv/ai</a>.
+</div>
+
+<div class="section profile">
+  <div class="section-title">Profile</div>
+  <p>Technology, product and people - not as separate domains, but as a single discipline. I am a builder: of products, platforms, organizations and the leaders who run them - grounded in technical depth, shaped by product thinking and connected to business outcomes.</p>
+  <p>More than 20 years of experience as a founder, CTO and engineering group lead, across startups and a large public technology company.</p>
+  <p>With a track record of identifying technology inflection points early and moving production systems into new paradigms before they become established practice.</p>
+</div>
+
+<div class="section">
+  <div class="section-title">Leadership areas</div>
+  <div class="cards">
+    <div class="card"><strong>Technology & AI</strong>Distributed systems, platform engineering, scalable architectures and AI-native software design - approached with a product lens, not just a technical one.</div>
+    <div class="card"><strong>Product & Strategy</strong>Product strategy, platform-as-a-product, technical vision, roadmap steering, developer experience and connecting technology investments to customer and business outcomes.</div>
+    <div class="card"><strong>People & Organizations</strong>Building and restructuring organizations, developing engineering leaders, mentoring managers and senior engineers, and leading distributed teams.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Experience</div>
+
+  <div class="role">
+    <div class="role-head"><h3>monday.com</h3><span class="role-date">2024–Present</span></div>
+    <div class="role-title">Engineering Group Lead</div>
+    <p style="font-size:9.5pt">Lead engineering groups spanning customer-facing products and core platform infrastructure, combining technical strategy, product thinking, organizational design and leadership development.</p>
+
+    <div class="subrole">Server Foundation, Core Engineering · 2026–Present</div>
+    <ul>
+      <li>Lead foundational engineering across authorization, service architecture and application-level infrastructure.</li>
+      <li>Initiated and lead <strong>mondayCore</strong>, an AI-ready service platform that allows engineers and coding agents to focus on business logic, while the platform handles all non-functional requirements, such as infrastructure communication, resilience, policy enforcement and deployment concerns.</li>
+      <li>Led async communications infrastructure - including event-driven patterns, Kafka-based messaging and the reporter service - as a core part of the application-level infrastructure mandate.</li>
+      <li>Lead the modernization of monday.com's authorization architecture toward a graph-based model designed for greater performance, resilience and scale.</li>
+      <li>Drove a mindset shift across the group: platform engineering approached and measured as product engineering, aligning developer experience with company-wide goals for velocity, reliability, platform autonomy and cost efficiency.</li>
+      <li>Define group structure and ownership around evolving company-level technical missions.</li>
+    </ul>
+
+    <div class="subrole">Ecosystem Products · 2024–2026</div>
+    <ul>
+      <li>Led engineering for WorkForms, WorkDocs and Knowledge across Tel Aviv and London.</li>
+      <li>Defined and led WorkForms' modernization strategy across three pillars: platform independence (forms stay up when monday goes down, and can't bring monday down), feature competitiveness with dedicated forms products, and tighter ecosystem cohesion with monday's main products.</li>
+      <li>Executed by tying migration milestones to ongoing feature delivery rather than treating them as competing tracks - unlocking 100x scale, independent deployment and meaningful growth in active adoption among large enterprise accounts.</li>
+      <li>Built and developed the WorkDocs and Knowledge engineering teams. Drove meaningful performance improvements and increased active adoption across pro and enterprise tiers. Pushed both products toward AI-native capabilities, establishing agentic practices as a core part of how the teams build and ship.</li>
+      <li>Pioneered AI-native product capabilities across both products at a time when agentic features were nascent at monday.com, drawing on prior hands-on experience building LLM agents.</li>
+      <li>Led all teams to adopt agentic development practices across the full software lifecycle - from planning and implementation to review and operation.</li>
+      <li>Developed engineering leaders and reshaped teams as product and organizational priorities evolved.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><h3>Brew</h3><span class="role-date">2019–2023</span></div>
+    <div class="role-title">CTO & Co-Founder</div>
+    <p style="font-size:9.5pt">Co-founded and built an AI-powered strategic marketing platform, raising a $12M seed round and growing to 50+ people.</p>
+    <ul>
+      <li>Built and led an R&D organization of ~25 engineers, data scientists, architects and technical leaders.</li>
+      <li>Defined technical strategy and translated business objectives into architecture, organization and execution plans.</li>
+      <li>Developed managers and technical leaders through delegation, mentoring, growth planning and clear ownership.</li>
+      <li>Built a competitive intelligence platform combining large-scale crawlers, NLP extraction and a contextual graph - enabling non-obvious insights into company marketing activity, target audiences and competitive positioning across markets.</li>
+      <li>Spearheaded one of the earliest production marketing strategy agents in late 2022, before the current agentic tooling was mature - designing orchestrator architecture, multi-tenant data isolation and chain-of-thought caching from first principles. Required shifting leadership and all of R&D to embrace LLMs before it was obvious.</li>
+      <li>Partnered with product, sales, customer success and company leadership to shape product and business strategy.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head"><h3>EverThere, formerly Zoliro</h3><span class="role-date">2012–2019</span></div>
+    <div class="role-title">VP R&D & Co-Founder</div>
+    <ul>
+      <li>Built the company's product and engineering capabilities from inception.</li>
+      <li>The company's IP was acquired by one of its customers. Developed an AI-powered system matching conferences with relevant advertisers - at a time when AI-powered matching was far from standard practice. Created a core source of customer and business value and grew to hundreds of customers with strong recurring engagement.</li>
+      <li>Designed systems for scalability, performance and data integrity.</li>
+      <li>Worked with product, sales and customer-facing teams to translate market needs into product direction.</li>
+      <li>Built and led teams across backend, frontend, data and infrastructure.</li>
+    </ul>
+  </div>
+
+  <div class="role idf">
+    <div class="role-head"><h3>Israel Defense Forces - MAMRAM</h3><span class="role-date">2005–2011</span></div>
+    <p><strong>CTO and Founding Team Member, Cyber Defense Unit</strong> · Helped establish a new cyber-defense technology unit and led its early technical foundations.</p>
+    <p><strong>Database Team Lead, HR Technology</strong> · Led database engineering for a large-scale organizational HR platform.</p>
+    <p><strong>Programming Instructor, Course Lead and Project Manager</strong> · Taught software engineering, managed instructors and curriculum, and led technical projects.</p>
+    <p class="small">Officer, reserve service.</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Education & Languages</div>
+  <div class="two-col">
+    <div>
+      <h4>Education</h4>
+      <p><strong>B.Sc. Biotechnology</strong> · The Open University of Israel</p>
+      <p><strong>Software Engineering and Programming Program</strong> · MAMRAM, Israel Defense Forces</p>
+    </div>
+    <div>
+      <h4>Languages</h4>
+      <p>Hebrew - Native · English - Fluent · French - Fluent</p>
+      <h4>Writing</h4>
+      <p>Articles on engineering leadership, organizational design, autonomy, technical strategy and engineering executives. <a href="https://https://amram.co/stories/">https://amram.co/stories</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

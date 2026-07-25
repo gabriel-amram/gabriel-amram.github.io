@@ -4,6 +4,9 @@
 /README.md
   X-Robots-Tag: noindex
 
+/cv/print.html
+  X-Robots-Tag: noindex
+
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
