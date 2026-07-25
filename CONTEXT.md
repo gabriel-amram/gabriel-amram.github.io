@@ -15,6 +15,8 @@ A lightweight, dependency-free static site. No build step, no framework. HTML, C
 - `/assets/` - Shared CSS and JS
 - `/_headers` - Cloudflare Pages response headers
 - `/robots.txt`, `/sitemap.xml`, `/llms.txt` - Machine-readable navigation
+- `/cv.pdf` - Downloadable PDF version of the human CV
+- `/cv/print.html` - Standalone print-optimized HTML source used to generate cv.pdf (noindexed)
 
 ## About Gabriel
 
@@ -35,3 +37,13 @@ His identity is at the triangulation of engineering depth, product strategy and 
 - EverThere: ended with IP acquisition by a customer
 - The "platform engineering as product engineering" concept is intentional and repeated - it's a core part of Gabriel's identity, not accidental redundancy
 - Stories page links all open in new tab
+
+## PDF generation
+
+`cv.pdf` is generated manually from `cv/print.html` using Chrome's print-to-PDF:
+1. Open `cv/print.html` locally in Chrome
+2. Cmd+P → Save as PDF → A4, no headers/footers, default margins
+3. Save as `cv.pdf` in the repo root
+4. Commit both `cv.pdf` and any changes to `cv/print.html` together
+
+`cv/print.html` is a self-contained HTML file with print-optimized CSS (`@page`, tight spacing, no site chrome). It must be kept in sync with `cv/index.html` whenever CV content changes.
