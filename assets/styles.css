@@ -105,8 +105,9 @@ article.ai p, article.ai li { max-width: 880px; }
   .grid, .two-col { grid-template-columns: 1fr; }
   .role-head { display: block; }
   .role-date { display: block; margin-top: 3px; }
-  .nav { align-items: flex-start; padding: 16px 0; }
-  .nav-links { justify-content: flex-end; gap: 12px; }
+  .nav { flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px 0; min-height: unset; }
+  .nav-links { gap: 14px; flex-wrap: wrap; }
+  .nav-links a { font-size: .88rem; }
   main { padding-top: 42px; }
 }
 @media print {
