@@ -1,3 +1,9 @@
+/CONTEXT.md
+  X-Robots-Tag: noindex
+
+/README.md
+  X-Robots-Tag: noindex
+
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
