@@ -145,7 +145,15 @@
 <h3>WorkForms modernization</h3>
 <h4>Initial state</h4>
 <p>WorkForms depended heavily on monday.com’s monolith and shared infrastructure, resulting in tight coupling, limited isolation, scalability concerns, risk to the wider platform during traffic spikes and difficulty scaling campaign-driven workloads independently.</p>
-<h4>Strategy and work led</h4>
+<h4>Strategy</h4>
+<p>Gabriel defined the modernization strategy around three pillars:</p>
+<ul>
+  <li><strong>Platform independence:</strong> WorkForms should stay operational when monday experiences issues, and a forms traffic spike should never threaten monday's stability.</li>
+  <li><strong>Feature competitiveness:</strong> close the gap with dedicated forms products on core customer requests, so users have no reason to leave monday's ecosystem for a competing tool.</li>
+  <li><strong>Ecosystem cohesion:</strong> deepen WorkForms' integration with monday's main products to increase stickiness and coherence across the platform.</li>
+</ul>
+<p>The execution challenge was moving on this strategy while customer feature requests kept arriving. Gabriel's approach was to tie migration milestones to feature delivery rather than separating them - each architectural improvement created the headroom for the next feature investment.</p>
+<h4>Work led</h4>
 <ul>
   <li>Separated critical WorkForms flows from the monolith.</li>
   <li>Redesigned architecture for higher traffic, stronger isolation and improved resilience.</li>
