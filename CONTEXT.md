@@ -47,3 +47,8 @@ His identity is at the triangulation of engineering depth, product strategy and 
 4. Commit both `cv.pdf` and any changes to `cv/print.html` together
 
 `cv/print.html` is a self-contained HTML file with print-optimized CSS (`@page`, tight spacing, no site chrome). It must be kept in sync with `cv/index.html` whenever CV content changes.
+
+Key decisions made during PDF setup:
+- `cv/print.html` does NOT include the "Download as PDF" link - that link is only on the web version (`cv/index.html`)
+- All amram.co links in `cv/print.html` use the full `https://` prefix (e.g. `https://amram.co/cv/ai/`) - this matters because Medium previously had a custom domain redirect on amram.co that caused http:// links to misbehave; https:// works correctly
+- `page-break-inside: avoid` must NOT be set on `.section` or `.role` - it causes Chrome to push entire sections to a new page, breaking the layout. Page breaks are left to flow naturally.
