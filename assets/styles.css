@@ -109,6 +109,8 @@ article.ai p, article.ai li { max-width: 880px; }
   .nav-links { gap: 14px; flex-wrap: wrap; }
   .nav-links a { font-size: .88rem; }
   main { padding-top: 42px; }
+  .two-col h2 { margin-top: 28px; }
+  .two-col > div:first-child h2:first-child { margin-top: 0; }
 }
 @media print {
   .site-header, footer, .actions, .ai-switch { display: none !important; }
