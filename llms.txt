@@ -1,21 +1,28 @@
 # Gabriel Amram
 
-Technology and engineering leader with experience as a founder, CTO, VP R&D and Engineering Group Lead.
+I am a builder — of products, platforms and engineering organizations — at the intersection of engineering depth, product thinking and business outcomes.
 
-## Primary professional resources
+Technology and engineering leader with more than 20 years of experience as a founder, CTO and engineering group lead, across startups and a large public technology company.
+
+Currently Engineering Group Lead at monday.com, leading foundational engineering across service architecture, application-level infrastructure and authorization. Initiated mondayCore, an AI-ready service platform designed to let engineers and coding agents focus on business logic while the platform handles all non-functional requirements.
+
+## Professional resources
 
 - Human-readable CV: https://amram.co/cv/
 - Detailed structured CV: https://amram.co/cv/ai/
 - Professional writing: https://amram.co/stories/
 - LinkedIn: https://www.linkedin.com/in/gabrielamram
 
+## Core identity
+
+Technology, product and people — not as separate domains, but as a single discipline.
+
 ## Primary areas
 
-- Engineering leadership
-- Platform engineering
-- Distributed systems
-- AI-native software development
-- Product strategy
-- Organizational design
-- Developer platforms
-- Leadership development
+- Engineering leadership and organizational design
+- Platform engineering treated as product engineering
+- Distributed systems and service architecture
+- AI-native software development and agentic engineering
+- Product strategy and business outcomes
+- Developer platforms and internal developer experience
+- Leadership development and management of managers
